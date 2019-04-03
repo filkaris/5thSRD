@@ -12,7 +12,7 @@ build_config = {
     'indexes': {
         'spells': {
             'source_directory': './docs/spellcasting/spells',
-            'link_prefix': '/spellcasting/spells',
+            'link_prefix': 'docs/spellcasting/spells',
             'index_path': './docs/spellcasting/spell_indexes/',
             'indexes_to_generate': {
                 'school': {

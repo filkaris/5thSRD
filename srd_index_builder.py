@@ -150,7 +150,7 @@ class SRDIndexBuilder:
         if self.offline_mode:
             name = '{0}/index.html'.format(name)
         else:
-            name = '{0}/'.format(name)
+            name = '{0}.md'.format(name)
         return name
 
     def _convert_category_to_markdown(self, category, use_spell_titles=False):
